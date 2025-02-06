@@ -13,6 +13,7 @@ one:
 	pdflatex ${FILE}.tex
 	bibtex ${FILE}
 	pdflatex ${FILE}.tex
+	pdflatex ${FILE}.tex
 
 clean:
 	-rm *.aux
